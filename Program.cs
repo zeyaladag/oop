@@ -10,6 +10,21 @@ var trackingSystem1 = new Homework1(
     70
 );
 
+// hence, we proved that trackingSystem is an object. we can say that everything is inherited from the object class
+object obj = trackingSystem;
+
+//since Homework is a complex object, we can create lists of Homeworks
+List<Homework> homeworks =
+[
+    trackingSystem,
+    new Homework1(
+        Guid.NewGuid,
+        "Random Data Generator",
+        "Creates Random Datas",
+        90
+    )
+];
+
 //setting fields
 trackingSystem.Id = Guid.NewGuid();
 //id propery is set as private in class so it gives error
