@@ -3,12 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{BB6CFE17-E635-4D98-A142-70F6AD72D5EB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <StartupObject>
     </StartupObject>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace>oop</RootNamespace>
     <AssemblyName>ConsoleApplication</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
@@ -63,6 +62,141 @@
     <Import Include="System.Diagnostics" />
     <Import Include="System.Linq" />
     <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="Basics\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Content Include="Basics\obj\Debug\net8.0\Basics.AssemblyInfo.cs" />
+    <Content Include="Basics\obj\Debug\net8.0\Basics.GlobalUsings.g.cs" />
+    <Content Include="Basics\obj\Release\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Content Include="Basics\obj\Release\net8.0\Basics.AssemblyInfo.cs" />
+    <Content Include="Basics\obj\Release\net8.0\Basics.GlobalUsings.g.cs" />
+    <Content Include="Basics\Program.cs" />
+    <Content Include="HomeworkApp\HomeworkApp.sln" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\Homework.AssemblyInfo.cs" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\Homework.GlobalUsings.g.cs" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.AssemblyInfo.cs" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.csproj.FileListAbsolute.txt" />
+    <Content Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.GlobalUsings.g.cs" />
+    <Content Include="HomeworkApp\obj\Release\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Content Include="HomeworkApp\obj\Release\net8.0\HomeworkApp.AssemblyInfo.cs" />
+    <Content Include="HomeworkApp\obj\Release\net8.0\HomeworkApp.GlobalUsings.g.cs" />
+    <Content Include="HomeworkApp\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\sendemail-validate.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-7c6d2ceed8b2905cf120126d5ce320b420cb0522.idx" />
+    <None Include=".git\objects\pack\pack-7c6d2ceed8b2905cf120126d5ce320b420cb0522.pack" />
+    <None Include=".git\objects\pack\pack-7c6d2ceed8b2905cf120126d5ce320b420cb0522.rev" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\HomeworkApp\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\HomeworkApp\FileContentIndex\08327c17-b922-4064-a142-ae6ace105084.vsidx" />
+    <None Include=".vs\HomeworkApp\FileContentIndex\1e5073cb-d46b-4828-a0e5-2e200a11a841.vsidx" />
+    <None Include=".vs\HomeworkApp\FileContentIndex\276c1741-b4e8-47b1-9bdc-19d49397558c.vsidx" />
+    <None Include=".vs\HomeworkApp\FileContentIndex\28293516-fefb-4bc1-9135-0cbc45b3f0f7.vsidx" />
+    <None Include=".vs\HomeworkApp\FileContentIndex\53c9be81-60a1-478a-a4d1-4777fb7b9878.vsidx" />
+    <None Include=".vs\HomeworkApp\v17\.futdcache.v2" />
+    <None Include=".vs\HomeworkApp\v17\.suo" />
+    <None Include=".vs\HomeworskApp\v17\.suo" />
+    <None Include=".vs\HomeworskApp\v17\DocumentLayout.json" />
+    <None Include=".vs\oop\FileContentIndex\168ff145-b3c9-4cab-b322-e5e70c91427c.vsidx" />
+    <None Include=".vs\oop\FileContentIndex\307f9096-bd91-4b05-99eb-7014aa07b51c.vsidx" />
+    <None Include=".vs\oop\FileContentIndex\7c38a44f-c58a-4485-a5c2-986d55ddd5fd.vsidx" />
+    <None Include=".vs\oop\FileContentIndex\862e0aa2-f870-423c-9cdc-4454df5aee38.vsidx" />
+    <None Include=".vs\oop\FileContentIndex\c80f48a6-6769-4715-9d60-bd6e998e4345.vsidx" />
+    <None Include=".vs\oop\v17\.suo" />
+    <None Include=".vs\oop\v17\.wsuo" />
+    <None Include=".vs\oop\v17\DocumentLayout.backup.json" />
+    <None Include=".vs\oop\v17\DocumentLayout.json" />
+    <None Include=".vs\ProjectEvaluation\homeworkapp.metadata.v9.bin" />
+    <None Include=".vs\ProjectEvaluation\homeworkapp.projects.v9.bin" />
+    <None Include=".vs\ProjectEvaluation\homeworkapp.strings.v9.bin" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Basics\Basics.csproj" />
+    <None Include="Basics\obj\Basics.csproj.nuget.dgspec.json" />
+    <None Include="Basics\obj\Basics.csproj.nuget.g.props" />
+    <None Include="Basics\obj\Basics.csproj.nuget.g.targets" />
+    <None Include="Basics\obj\Debug\net8.0\Basics.AssemblyInfoInputs.cache" />
+    <None Include="Basics\obj\Debug\net8.0\Basics.assets.cache" />
+    <None Include="Basics\obj\Debug\net8.0\Basics.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Basics\obj\project.assets.json" />
+    <None Include="Basics\obj\project.nuget.cache" />
+    <None Include="Basics\obj\Release\net8.0\Basics.AssemblyInfoInputs.cache" />
+    <None Include="Basics\obj\Release\net8.0\Basics.assets.cache" />
+    <None Include="Basics\obj\Release\net8.0\Basics.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="HomeworkApp\Data.json" />
+    <None Include="HomeworkApp\HomeworkApp.csproj" />
+    <None Include="HomeworkApp\HomeworkApp.vbproj" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\Homework.AssemblyInfoInputs.cache" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\Homework.assets.cache" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\Homework.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.AssemblyInfoInputs.cache" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.assets.cache" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.csproj.CoreCompileInputs.cache" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="HomeworkApp\obj\Debug\net8.0\HomeworkApp.sourcelink.json" />
+    <None Include="HomeworkApp\obj\Homework.csproj.nuget.dgspec.json" />
+    <None Include="HomeworkApp\obj\Homework.csproj.nuget.g.props" />
+    <None Include="HomeworkApp\obj\Homework.csproj.nuget.g.targets" />
+    <None Include="HomeworkApp\obj\HomeworkApp.csproj.nuget.dgspec.json" />
+    <None Include="HomeworkApp\obj\HomeworkApp.csproj.nuget.g.props" />
+    <None Include="HomeworkApp\obj\HomeworkApp.csproj.nuget.g.targets" />
+    <None Include="HomeworkApp\obj\project.assets.json" />
+    <None Include="HomeworkApp\obj\project.nuget.cache" />
+    <None Include="HomeworkApp\obj\Release\net8.0\HomeworkApp.AssemblyInfoInputs.cache" />
+    <None Include="HomeworkApp\obj\Release\net8.0\HomeworkApp.assets.cache" />
+    <None Include="HomeworkApp\obj\Release\net8.0\HomeworkApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="HomeworkApp\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="HomeworkApp\obj\x86\Debug\HomeworkApp.vbproj.AssemblyReference.cache" />
+    <None Include="HomeworkApp\obj\x86\Release\HomeworkApp.vbproj.AssemblyReference.cache" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="Basics\bin\Debug\net8.0\" />
+    <Folder Include="Basics\bin\Release\net8.0\" />
+    <Folder Include="Basics\obj\Debug\net8.0\refint\" />
+    <Folder Include="Basics\obj\Debug\net8.0\ref\" />
+    <Folder Include="Basics\obj\Release\net8.0\refint\" />
+    <Folder Include="Basics\obj\Release\net8.0\ref\" />
+    <Folder Include="HomeworkApp\bin\Debug\net8.0\" />
+    <Folder Include="HomeworkApp\bin\Release\net8.0\" />
+    <Folder Include="HomeworkApp\My Project\" />
+    <Folder Include="HomeworkApp\obj\Debug\net8.0\refint\" />
+    <Folder Include="HomeworkApp\obj\Debug\net8.0\ref\" />
+    <Folder Include="HomeworkApp\obj\Release\net8.0\refint\" />
+    <Folder Include="HomeworkApp\obj\Release\net8.0\ref\" />
+    <Folder Include="HomeworkApp\obj\x86\Debug\TempPE\" />
+    <Folder Include="My Project\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
   <ProjectExtensions>
