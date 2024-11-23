@@ -32,3 +32,18 @@ dotnet new sln // creates a solution file
 ```
 we create solution files at c# projects. a solution is a grouping of one or more projects that work together to create an application.
 
+overloading
+* we can differentiate a method by changing the parameter structure and call it with the same name.
+* overloading requires changing the parameter number or parameter type. it is called "method signature".
+
+access modifiers
+* every class member is private by default.
+* private, public, internal, protected, protected internal
+
+SOLID principles
+	single responsibility
+	open/closed
+	liskov substituation
+	interface segregation
+	dependency inversion
+
