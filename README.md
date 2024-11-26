@@ -41,9 +41,9 @@ access modifiers
 * private, public, internal, protected, protected internal
 
 SOLID principles
-	single responsibility
-	open/closed
-	liskov substituation
-	interface segregation
-	dependency inversion
+* single responsibility
+* open/closed
+* liskov substituation
+* interface segregation
+* dependency inversion
 
